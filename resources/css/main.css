@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #292727;
+    font-family: 'lato','Arial', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;   
+}
+
+.bkgcolor {
+    background-color: bisque;
+}
+#contact {
+    background-color: #f0c303;
+}
+.contact {
+    color: #240101;
+    font-weight: 300;
+}
+.contactMe {
+    padding: 0px 0;
+}
+/** Navigation bar at the top */
+.main-nav {
+    float: right;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #f0c303;
+    color: #f0c303;
+}
+
+/** headers */
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../img/background1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    left: 45%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.name-text-box {
+    position: absolute;
+    width: 1140px;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color: #f0c303;
+    margin-bottom: 10px;
+}
+
+
+/** links */
+/*------------links----------*/
+a:link, a:visited {
+    text-decoration: none;
+    border-bottom: 10px solid #f0c303;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+a:hover, a:active { aliceblue;
+    border-bottom: 1px solid transparent;
+}
+
+/*---------------buttons----------*/
+.btn:link, .btn:visited{
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 300;
+    border-radius: 50px;
+    text-decoration: none; 
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #f0c303;
+    border: 1px solid #f0c303;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link, .btn-ghost:visited {
+    border: 1px solid #f0c303;
+    color: #f0c303;
+}
+
+.btn:hover, .btn:active {
+    background-color: #f0c303;
+    
+}
+.btn-full:hover, .btn-full:active {
+    border: 1px solid #f0c303;
+    
+}
+.btn-ghost:hover, .btn-ghost:active {
+    border: 1px solid #f0c303;
+    color: #fff;
+}
+
+.row ul {
+    list-style: none;
+} 
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    font-size: 120%;
+    color: #020627;
+    /*secrets to algin text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: -4px;
+}
